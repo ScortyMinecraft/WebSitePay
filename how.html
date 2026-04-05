@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Как это работает — Безналичная оплата</title>
+    <meta name="description" content="Сценарии безналичной оплаты для покупателя, продавца и банка." />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-page="how">
+    <div class="bg"></div>
+    <header class="header">
+      <div class="container header__inner">
+        <div class="brand">
+          <div class="brand__logo" aria-hidden="true">💳</div>
+          <div class="brand__text">
+            <div class="brand__title">Безналичная оплата</div>
+            <div class="brand__subtitle">Учебный проект (10 класс)</div>
+          </div>
+        </div>
+        <nav class="nav" aria-label="Навигация">
+          <a class="nav__item" data-route="home" href="./index.html">Главная</a>
+          <a class="nav__item" data-route="terms" href="./terms.html">Термины</a>
+          <a class="nav__item" data-route="how" href="./how.html">Как это работает</a>
+          <a class="nav__item" data-route="compare" href="./compare.html">Сравнить</a>
+          <a class="nav__item" data-route="quiz" href="./quiz.html">Викторина</a>
+          <a class="nav__item" data-route="business" href="./business.html">Бизнес‑симулятор</a>
+          <a class="nav__item" data-route="stats" href="./stats.html">Статистика</a>
+        </nav>
+      </div>
+    </header>
+    <main class="main"><div class="container"><section id="view" class="view" aria-live="polite"></section></div></main>
+    <footer class="footer"><div class="container footer__inner"><div class="footer__note">Проект создан в образовательных целях.</div></div></footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="./main.js" defer></script>
+  </body>
+</html>
